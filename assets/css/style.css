@@ -1,0 +1,153 @@
+
+/* UNIVERSAL */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #d9dcd6;
+  }
+
+h1 {
+font-size: 30px;
+}
+
+
+/* HEADER SECTION */
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+}
+
+header a {
+    text-decoration: none;
+    color: #fce138;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+} 
+
+/* NAV SECTION */
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+
+/*HERO/JUMBROTRON SECTION */
+.hero {
+    background-image: url("../images/hero-background.jpeg");
+    height: 380px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* Place text in the bottom right of the image */
+.hero-box {
+    color: #d9dcd6;
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    width: 97%;
+    margin-bottom: 25px; 
+}
+
+.hero-text {
+    width: 30%;
+    padding: 10px;
+    border: 3px solid #d9dcd6;;
+    font-size: 20px;
+    text-align: center;
+    float: right;
+}
+
+/* ABOUT ME SECTION */
+
+.trainers {
+    text-align: center;
+  }
+
+  .trainer {
+    width: 100%;
+    margin: 0 auto 30px auto;
+    background: #024e76;
+    color: #fce138;
+    overflow: auto;
+  }
+
+  .trainer img {
+    width: 38%;
+    float: left;
+    margin: 1%;
+  }
+  
+  .trainer-bio {
+    padding: 35px;
+    float: left;
+    width: 60%;
+  }
+
+  .text-left {
+    text-align: left;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+
+  .trainer-bio h3 {
+    font-size: 45px;
+    margin-bottom: 40px;
+  }
+   
+  .trainer-bio p {
+    font-size: 25px;
+    line-height: 1.3;
+  }
+
+
+/* WORK SECTION */
+
+/* CONTACT ME */
+
+
+/* FOOTER */
+footer {
+    background: #39a6b2;
+    text-align: center;
+    width: 100%;
+    padding: 40px 35px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+
+}
+
+footer h2 {
+    display: inline;
+    color: #fce138;
+    font-size: 30px;
+    margin: 0;
+    line-height: 1.5;
+}
+
+  
