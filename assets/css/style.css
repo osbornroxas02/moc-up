@@ -187,6 +187,22 @@ header nav ul li a {
 
 
 /* CONTACT ME */
+.flex-container {
+    display: flex;
+    justify-content: center;
+    background-color: #39a6b2;
+    height: 117px;
+    width: 100%;
+}
+  
+.flex-container  div {
+/* background-color: #f1f1f1; */
+    width: 20%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 20px;
+}
 
 
 /* FOOTER */
@@ -209,4 +225,3 @@ footer h2 {
     line-height: 1.5;
 }
 
-  
